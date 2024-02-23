@@ -1,0 +1,81 @@
+
+
+.header{
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  margin: 10px;
+}
+.headerButtons{
+  margin-left: 5px;
+  border-radius: 40px;
+}
+
+
+.search{
+  padding-left: 20px;
+  padding-right: 20px;
+
+margin:20px;
+  border: 5px solid white;
+  border-radius: 20px;
+  
+}
+
+/* body */
+
+.display{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+img{
+  height: 70vh;
+  width:100vh;
+  padding-top:20px;
+ 
+  
+  }
+  .info{
+    flex-direction: row;
+    padding-top: 20px;
+  }
+
+  .image{
+    flex-direction: row;
+  }
+ 
+
+  .headerButtons{
+width:23vh;  
+flex-direction: row;
+text-align: center;
+align-items: center;
+
+}
+
+.buttonDiv{
+  width:23vh;  
+flex-direction: row;
+text-align: center;
+align-items: center;
+
+}
+
+.informationDiv{
+  flex-direction: row;
+}
+
+.extras{
+  background-color: yellow;
+}
+
+
+footer{
+  background-color: orange;
+}
+
