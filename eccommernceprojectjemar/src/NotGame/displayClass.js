@@ -1,4 +1,4 @@
- export default class DisplayInfo{
+ class DisplayInfo{
     constructor(header, para, image,price){
     this.header= header
     this.para= para
@@ -7,7 +7,7 @@
     
     }}
 
-    class Basketlist{
+    class Item{
         constructor(price,shipping,tax,discount){
 this.price=price
 this.shipping=shipping
@@ -15,3 +15,6 @@ this.tax=tax
 this.discount=discount
         }
     }
+
+    export default DisplayInfo;
+    export {Item as Basketlist};
